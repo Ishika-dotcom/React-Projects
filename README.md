@@ -60,3 +60,29 @@ This repository contains basic React projects, each focusing on specific React c
 - A simple project to demonstrate theme switching between light and dark modes using context.
 - Contains a card with a toggle button to switch themes.
 - Highlights how context can be used to manage global application state.
+
+---
+
+## 📂 **7. todoContext**
+**Concepts Used:** `useContext`
+
+- A Todo List application built using the `useContext` hook.
+- Features include:
+  - Adding new todos
+  - Editing existing todos
+  - Deleting todos
+  - A toggle button (checkbox) to strike off completed tasks.
+- Demonstrates how context can be used to manage shared state in a multi-component setup.
+
+---
+
+## 📂 **8. reduxToolkitTodo**
+**Concepts Used:** Redux Toolkit (`createSlice`, `useDispatch`, `useSelector`)
+
+- A Todo List application implemented using Redux Toolkit for state management.
+- Features include:
+  - Adding new todos
+  - Removing todos
+  - Centralized state management with Redux store and slices.
+- Demonstrates the use of `useDispatch` and `useSelector` for interacting with the Redux store.
+  
